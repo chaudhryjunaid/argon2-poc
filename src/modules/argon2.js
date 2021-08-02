@@ -3,7 +3,7 @@ const perf = require('execution-time')();
 
 exports.hash = async function(password, options) {
 	perf.start(__filename+'_hash');
-	const hash = await argon2.hash(password);
+	const hash = await argon2.hash(password, options);
 	const execTime = perf.stop(__filename+'_hash');
 	return {
 		hash,
