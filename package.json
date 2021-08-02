@@ -1,0 +1,30 @@
+{
+  "name": "argon2-poc",
+  "version": "1.0.0",
+  "description": "Experiment with argon2 hashing in the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudhryjunaid/argon2-poc.git"
+  },
+  "keywords": [
+    "argon2",
+    "scrypt",
+    "bcrypt"
+  ],
+  "author": "Chaudhry Junaid Anwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaudhryjunaid/argon2-poc/issues"
+  },
+  "homepage": "https://github.com/chaudhryjunaid/argon2-poc#readme",
+  "dependencies": {
+    "argon2": "^0.28.2",
+    "bluebird": "^3.7.2",
+    "execution-time": "^1.4.1",
+    "minimist": "^1.2.5"
+  }
+}
