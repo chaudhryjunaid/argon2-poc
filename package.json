@@ -23,6 +23,8 @@
   "homepage": "https://github.com/chaudhryjunaid/argon2-poc#readme",
   "dependencies": {
     "argon2": "^0.28.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
     "execution-time": "^1.4.1",
     "minimist": "^1.2.5"
