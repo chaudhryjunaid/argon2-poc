@@ -40,7 +40,7 @@ async function benchmark() {
 	}
 	const {hash: _hash, execTime} = await selectedAlgo.hash(passwd, options);
 	console.log({_hash, execTime}, 'hashing result!');
-	const {match, execTime: vExecTime} = await selectedAlgo.verify(hash, passwd);
+	const {match, execTime: vExecTime} = await selectedAlgo.verify(_hash, passwd);
 	console.log({match, vExecTime}, 'matching result!');
 	console.log('===================================================\n\n');
 }
